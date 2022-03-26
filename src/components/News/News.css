@@ -1,0 +1,147 @@
+.NewsBox ul {
+    list-style: none;
+}
+
+.news_all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.news_left {
+    width: 700px;
+}
+
+.news_right {
+    width: 300px;
+}
+
+.newsbox {
+    margin-top: 2px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.images {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.newsbox img {
+    height: 120px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    font: Arial,sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+    color: #626675; 
+    font-family: Arial,sans-serif;
+}
+
+.source {
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.date {
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.like {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #ccc;
+    margin-left: 30px;
+}
+
+.like:hover {
+    color: black;
+}
+
+.trending {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #ccc;
+}
+
+.trending:hover {
+    color: black;
+}
+
+.help {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #ccc;
+}
+
+.help:hover {
+    color: black;
+}
+
+.clearfix {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.clearfix img {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+.nav-txt{
+    font: 14px/24px Arial,sans-serif;
+    color: #626675;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 70px;
+    height: 88px;
+    margin: 40px 40px;
+    text-align: center;
+}
+
+.clearfix a {
+    text-decoration: none;
+}
+
+.like_follow {
+    display: block;
+    width: 800px;
+    height: 80px;
+    background-color: white;
+    font: 14px/24px Arial,sans-serif;
+    color: #222;
+    border: #ccc;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 8%);
+    border-radius: 12px;
+}

@@ -1,0 +1,56 @@
+.topiclist img {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.topiclist img[src=''],img:not([src]) {
+    opacity: 0;
+}
+
+.link {
+    border: none;
+    color: #222;
+    background-color: white;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-right: 110px;
+    margin-left: 30px;
+}
+
+.change {
+    border: 0;
+    background-color: white;
+    color: #626675;
+}
+
+.Trending_all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.Trending_button {
+    width: 300px;
+    height: 27px;
+}
+
+
+.topiclist {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.topic_component {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font: 14px/24px Arial,sans-serif;
+    color: #222;
+}
+
+
+
+

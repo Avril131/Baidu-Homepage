@@ -1,0 +1,48 @@
+#root {
+  height: 100ph;
+  width: 100pw;
+}
+
+.website {
+  display: flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  height: 71px;
+  width: 100pw;
+}
+
+.searchbar {
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 2;
+  margin: 0 auto;
+}
+ 
+.searchbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 300px;
+}
+
+.searchbox img{
+  margin: 0 auto;
+  height: 129px;
+  width: 270px;
+}
+
+.lowwer_part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

@@ -1,0 +1,73 @@
+.all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+}
+
+.SearchBox {
+    width: 660px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*CSS for search-bar*/
+.searchbutton {
+    width: 536px;
+    height: 40px;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    padding: 0 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.searchbutton:focus {
+    border: 2px solid #317ef3;
+    border-bottom-left-radius: 0px;
+}
+
+/*CSS for button*/
+.baidubutton {
+    width: 100px;
+    height: 44px;
+    background: #317ef3;
+    border: 2px solid #317ef3;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    margin: 0 auto;
+    padding: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.searchresultlist {
+    background-color: white;
+    margin-top: -3px;
+    width: 514px;
+    list-style: none;
+    border: 2px solid #317ef3;
+}
+
+#searchbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap!important;
+}
+
+.searchresultlist li {
+    margin-left: -40px;
+    width: 554px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.active {
+    color: dodgerblue;
+    background-color: rgb(240, 240, 240);
+}
