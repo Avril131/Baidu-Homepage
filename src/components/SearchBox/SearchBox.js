@@ -129,9 +129,12 @@ class SearchBox extends Component {
                         })
                     }}
                     onBlur={() =>{
-                        this.setState({
+                        setTimeout(()=>{
+                          this.setState({
                             isShow: false
-                        })
+                        })  
+                        },250)
+                        
                     }}
                 />
                 <input
