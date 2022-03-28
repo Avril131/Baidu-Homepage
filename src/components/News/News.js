@@ -80,8 +80,9 @@ class News extends Component {
                                                     <div className='date'>{ele.ptime}</div>
                                                 </div>
                                             </div>
+											
                                         </div>
-                                        
+                                        <hr />
                                     </li>
                         })
                     }

@@ -14,7 +14,15 @@
     margin: 24px 19px;
 }
 
-.head ul {
+.topleft {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topright {
     list-style-type: none;
     display: inline;
     margin: 0;
@@ -30,4 +38,14 @@
 .topright li {
     float: left;
     display: inline;
+}
+
+/*Adapt to Mobile Phone screen*/
+@media screen and (max-width:768px) {
+    .topleft {
+        display: none;
+    }
+    .head a {
+        margin: 5px 4px;
+    }
 }
