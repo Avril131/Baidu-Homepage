@@ -53,6 +53,7 @@
     width: 514px;
     list-style: none;
     border: 2px solid #317ef3;
+    margin-right: 100px;
 }
 
 #searchbar {
@@ -74,8 +75,15 @@
     background-color: rgb(240, 240, 240);
 }
 
+/*Adapt to Tablet screen*/
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .searchresultlist{
+        margin-right: 100px;
+    }
+}
+
 /*Adapt to Mobile Phone screen*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .searchbutton {
         width: 250px;
         height: 40px;

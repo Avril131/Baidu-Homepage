@@ -150,8 +150,26 @@
     display: none;
 }
 
+/*Adapt to Tablet screen*/
+@media screen and (max-width:1023px) and (min-width:768px) {
+    .news_left li {
+        width: 550px;
+        margin-right: 0px;
+    }
+    .newslist {
+        width: 580px;
+        padding: 0;
+    }
+    .news_left {
+        width: 468px;
+    }
+    .news_all {
+        width: 768px;
+    }
+}
+
 /*Adapt to Mobile Phone screen*/
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .news_right {
         display: none;
     }
@@ -200,3 +218,4 @@
         background-color: rgb(230, 230, 230);
     }
 }
+
