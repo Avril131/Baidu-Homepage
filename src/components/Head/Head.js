@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 import './Head.css'
 
 class Head extends Component {
-    
+    constructor(props) {
+        super(props);
+        this.state = {
+            Loginbox_show: false,
+        }
+    }
     render() {
         return (
             <div id='header'>

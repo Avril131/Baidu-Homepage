@@ -1,13 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Unknown from './components/unknown/unknown'
-import './index.css';
-import SearchBox from './components/SearchBox/SearchBox';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './index.css'
+import SearchBox from './components/SearchBox/SearchBox'
 import News from './components/News/News'
-import reportWebVitals from './reportWebVitals';
-import baidu_logo from './images/baidu_logo.png'
 import Head from './components/Head/Head'
-
+import Unknown from './components/unknown/unknown'
+import reportWebVitals from './reportWebVitals'
+import baidu_logo from './images/baidu_logo.png'
 
 ReactDOM.render(
   <React.StrictMode>
@@ -21,7 +20,6 @@ ReactDOM.render(
             <SearchBox />
             <Unknown />
           </div>
-          
        </div>
       <div className='lowwer_part'>
         <News />
@@ -31,7 +29,4 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

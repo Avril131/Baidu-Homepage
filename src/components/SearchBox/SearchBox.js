@@ -3,7 +3,6 @@ import axios from 'axios';
 //Import css file
 import './SearchBox.css'
 
-
 class SearchBox extends Component {
     constructor(props) {
         super(props);
@@ -18,6 +17,7 @@ class SearchBox extends Component {
             num: -1,
             isShow:false,
             sticky: false,
+            needFixed: false,
         }
     }
 
@@ -108,10 +108,21 @@ class SearchBox extends Component {
         this.HandoverValue(Num);
     }
 
+    //onJudge=()=>{
+    //    const fixedTop = document.getElementById('searchbar').offsetTop
+    //    window.onscroll=()=>{
+    //        console.log(document.getElementById('searchbar').scrollTop)
+    //    }
+    //}
+
     render() {
         return (
             <div className='all'>
-            <div className="SearchBox">
+            <div className="SearchBox"
+                //onFoucus={()=>{
+                    //this.onJudge()
+                //}}
+            >
                 <div 
                     id='searchbar'
                 >
